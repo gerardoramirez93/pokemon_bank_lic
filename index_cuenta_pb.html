@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style_1.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <title>Pokemon Bank (GESTIONES)</title>
+</head>
+
+<body>
+    <div class="container-fluid inicio">
+        <p> <i class="bi bi-x-square-fill"></i><a href="index_pokemon_bank_1.html" style="color: black">Cerrar Sesión</a></p>
+        <div class="top">
+            <img src="pokemon_bank_trasp.png" class="img-fluid" alt="">
+            <h1>BIENVENIDO</h1>
+            <h6>USUARIO: GERARDO </h6>
+            <h6>ID CUENTA: 123456789 </h6>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <h2>Transacción</h2>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        SELECCIONAR
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">DEPOSITAR EFECTIVO</a></li>
+                        <li><a class="dropdown-item" href="#">RETIRAR EFECTIVO</a></li>
+                        <li><a class="dropdown-item" href="#">PAGAR SERVICIOS</a></li>
+                    </ul>
+                </div>
+                <input type="number" class="monto" placeholder="Monto" aria-label="Monto" disabled="disabled">
+                <br>
+                <input type="text" class="descripcion" placeholder="Descripción" aria-label="Descripción" disabled="disabled">
+                <br>
+                <button type="button" class="btn btn-primary" style="background-color: darkblue" data-toggle="button" aria-pressed="false">
+                    Agregar
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="container">
+            <div class="card">
+                <img src="dinero-transacc.png">
+                <h3>Consulta tu saldo y transacciones realizadas</h3>
+                <h5>Tu saldo disponible es:</h5>
+                <h3>$</h3>
+                <a href="index_historial.html" style="font-size: 19px">Acceder>></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="container">
+            <div class="card grafica">
+                <img src="graficos_dinero.png">
+                <h2>Revisa el flujo de tu cuenta</h2>
+                <h6>Análisis de transacciones realizadas</h6>
+                <br>
+                <a href="#" style="font-size: 19px">Acceder>></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body></html>

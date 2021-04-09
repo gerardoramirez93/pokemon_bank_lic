@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+body {
+    background: url(lapras_wallppr.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.top
+{
+background-color: aliceblue
+}
+.top img
+{
+    width: 50px;
+}
+h1
+{
+   font-family: 'Lexend', sans-serif;
+}
+.table
+{
+    background-color: lightsteelblue;
+}
+
